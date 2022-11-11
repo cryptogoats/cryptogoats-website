@@ -177,7 +177,7 @@ const statistics: Statistic[] = [
   },
   {
     icon: "mdi:heart-outline",
-    content: "8000+",
+    content: "20K+",
     title: "Social Media Followers",
   },
 ];
