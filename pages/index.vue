@@ -7,7 +7,7 @@
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h2 class="text-xs text-blue-600 tracking-widest font-medium mb-1">
-            EXCLUSIVE FOR MEMEBERS
+            EXCLUSIVE FOR MEMBERS
           </h2>
           <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">
             Access a variety of Services!
