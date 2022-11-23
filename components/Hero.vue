@@ -28,7 +28,7 @@
                 y="0"
                 width="4"
                 height="4"
-                class="text-blue-100"
+                class="text-amber-100"
                 fill="currentColor"
               />
             </pattern>
@@ -60,7 +60,7 @@
                 y="0"
                 width="4"
                 height="4"
-                class="text-blue-100"
+                class="text-amber-100"
                 fill="currentColor"
               />
             </pattern>
@@ -80,7 +80,7 @@
       >
         <div class="lg:max-w-2/3 flex-shrink">
           <p
-            class="px-3 py-1 bg-blue-500 text-white rounded-full font-semibold w-fit text-xs mb-4"
+            class="px-3 py-1 bg-amber-500 text-white rounded-full font-semibold w-fit text-xs mb-4"
             data-aos="fade-right"
           >
             THE TOP CRYPTO TRADING SERVER!
@@ -96,19 +96,19 @@
           <div class="space-x-4">
             <a
               href="/pricing"
-              class="inline-block rounded-md border border-transparent bg-blue-500 py-2 px-4 text-base font-medium text-white hover:bg-opacity-75"
+              class="inline-block rounded-md border border-transparent bg-amber-500 py-2 px-4 text-base font-medium text-white hover:bg-opacity-75"
               data-aos="fade-right"
               >Join Now!</a
             >
             <a
               href="/pricing"
-              class="inline-block rounded-md border border-blue-800 bg-blue-800 py-2 px-4 text-base font-medium text-blue-100 hover:bg-blue-900"
+              class="inline-block rounded-md border border-amber-800 bg-amber-800 py-2 px-4 text-base font-medium text-amber-100 hover:bg-amber-900"
               data-aos="fade-right"
               data-aos-delay="100"
               >Pricing</a
             >
           </div>
-          <h2 class="pt-16 text-blue-500" data-aos="fade-left">
+          <h2 class="pt-16 text-amber-500" data-aos="fade-left">
             Partners & Supporters
           </h2>
           <div class="flex">
@@ -122,7 +122,7 @@
           </div>
         </div>
         <img
-          src="https://pbs.twimg.com/profile_images/1518294991860293632/yeV2pyBa_400x400.jpg"
+          src="https://pbs.twimg.com/profile_images/1594547861169082370/p0mtt_-6_400x400.jpg"
           class="max-w-full w-md h-min rounded-lg shadow-2xl flex-1 object-contain hidden md:block"
           data-aos="flip-left"
         />

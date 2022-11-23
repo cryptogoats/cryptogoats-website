@@ -6,7 +6,7 @@
     <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
-          <h2 class="text-xs text-blue-600 tracking-widest font-medium mb-1">
+          <h2 class="text-xs text-amber-600 tracking-widest font-medium mb-1">
             EXCLUSIVE FOR MEMBERS
           </h2>
           <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">
@@ -27,7 +27,7 @@
     </section>
 
     <!-- STATISTICS -->
-    <section class="bg-blue-600">
+    <section class="bg-amber-600">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h1 class="sm:text-3xl text-2xl font-medium mb-4 text-white">

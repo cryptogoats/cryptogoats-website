@@ -1,7 +1,7 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
   <div class="bg-gray-50 pb-36">
-    <div class="relative bg-blue-600">
+    <div class="relative bg-amber-600">
       <!-- Overlapping background -->
       <div
         aria-hidden="true"
@@ -19,7 +19,7 @@
           <span class="block lg:inline">Options</span>
         </h1>
         <p
-          class="mt-4 text-xl text-blue-100"
+          class="mt-4 text-xl text-amber-100"
           data-aos="fade-down"
           data-aos-delay="200"
         >
@@ -31,15 +31,15 @@
 
       <!-- Toggle -->
       <div class="relative mt-12 flex justify-center sm:mt-16">
-        <div class="flex rounded-lg bg-blue-700 p-0.5">
+        <div class="flex rounded-lg bg-amber-700 p-0.5">
           <button
             v-for="(optionButton, index) in optionButtons"
             type="button"
-            class="relative ml-0.5 whitespace-nowrap rounded-md border border-transparent py-2 px-6 text-sm font-medium focus:z-10 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-blue-700"
+            class="relative ml-0.5 whitespace-nowrap rounded-md border border-transparent py-2 px-6 text-sm font-medium focus:z-10 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-amber-700"
             :class="
               tabIndex == index
-                ? 'text-blue-600 bg-white hover:bg-white'
-                : 'text-blue-200 hover:bg-blue-800'
+                ? 'text-amber-600 bg-white hover:bg-white'
+                : 'text-amber-200 hover:bg-amber-800'
             "
             v-on:click="changeIndex(index)"
           >
@@ -55,7 +55,7 @@
         <!-- Decorative background -->
         <div
           aria-hidden="true"
-          class="absolute inset-0 top-4 bottom-6 left-8 right-8 hidden rounded-tl-lg rounded-tr-lg bg-blue-700 lg:block"
+          class="absolute inset-0 top-4 bottom-6 left-8 right-8 hidden rounded-tl-lg rounded-tr-lg bg-amber-700 lg:block"
         />
 
         <div class="relative space-y-6 lg:grid lg:grid-cols-3 lg:space-y-0">
@@ -64,8 +64,8 @@
             :key="plan.title"
             :class="[
               plan.featured
-                ? 'bg-white ring-2 ring-blue-700 shadow-md'
-                : 'bg-blue-700 lg:bg-transparent',
+                ? 'bg-white ring-2 ring-amber-700 shadow-md'
+                : 'bg-amber-700 lg:bg-transparent',
               'pt-6 px-6 pb-3 rounded-lg lg:px-8 lg:pt-12',
             ]"
             data-aos="flip-up"
@@ -74,7 +74,7 @@
             <div>
               <h3
                 :class="[
-                  plan.featured ? 'text-blue-600' : 'text-white',
+                  plan.featured ? 'text-amber-600' : 'text-white',
                   'text-base font-semibold',
                 ]"
               >
@@ -86,7 +86,7 @@
                 <div class="mt-3 flex items-center">
                   <p
                     :class="[
-                      plan.featured ? 'text-blue-600' : 'text-white',
+                      plan.featured ? 'text-amber-600' : 'text-white',
                       'text-4xl font-bold tracking-tight',
                     ]"
                   >
@@ -107,8 +107,8 @@
                   :href="plan.url[tabIndex]"
                   :class="[
                     plan.featured
-                      ? 'bg-blue-600 text-white hover:bg-blue-700'
-                      : 'bg-white text-blue-600 hover:bg-blue-50',
+                      ? 'bg-amber-600 text-white hover:bg-amber-700'
+                      : 'bg-white text-amber-600 hover:bg-amber-50',
                     'mt-6 w-full inline-block py-2 px-8 border border-transparent rounded-md shadow-sm text-center text-sm font-medium sm:mt-0 sm:w-auto lg:mt-6 lg:w-full',
                   ]"
                   >Join Now!</a
@@ -122,7 +122,7 @@
               :class="[
                 plan.featured
                   ? 'border-gray-200 divide-gray-200'
-                  : 'border-blue-500 divide-blue-500 divide-opacity-75',
+                  : 'border-amber-500 divide-amber-500 divide-opacity-75',
                 'mt-7 border-t divide-y lg:border-t-0',
               ]"
             >
@@ -134,7 +134,7 @@
                 <Icon
                   name="mdi:check"
                   :class="[
-                    plan.featured ? 'text-green-400' : 'text-blue-200',
+                    plan.featured ? 'text-green-400' : 'text-amber-200',
                     'w-5 h-5 flex-shrink-0',
                   ]"
                   aria-hidden="true"
@@ -172,7 +172,7 @@
             <div class="mt-8">
               <div class="flex items-center">
                 <h4
-                  class="flex-shrink-0 bg-white pr-4 text-base font-semibold text-blue-600"
+                  class="flex-shrink-0 bg-white pr-4 text-base font-semibold text-amber-600"
                 >
                   Included Features
                 </h4>
